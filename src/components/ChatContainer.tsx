@@ -83,7 +83,7 @@ export const ChatContainer = () => {
       <Card className="flex-1 flex flex-col bg-chat-container border-border shadow-2xl">
         {/* Header */}
         <div className="p-6 border-b border-border bg-gradient-primary">
-          <h1 className="text-2xl font-bold text-primary-foreground">Chat IA</h1>
+          <h1 className="text-2xl font-bold text-primary-foreground">Conquer IA</h1>
           <p className="text-primary-foreground/80 text-sm">
             Converse com a inteligência artificial
           </p>

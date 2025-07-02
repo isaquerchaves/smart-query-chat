@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 240 10% 6%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 142 76% 36%;
-    --primary-foreground: 144 61% 20%;
+    --primary: 60 100% 50%;
+    --primary-foreground: 60 100% 10%;
 
     --secondary: 240 4% 16%;
     --secondary-foreground: 0 0% 98%;
@@ -26,27 +26,27 @@ All colors MUST be HSL.
     --muted: 240 5% 12%;
     --muted-foreground: 240 5% 65%;
 
-    --accent: 142 76% 36%;
-    --accent-foreground: 144 61% 20%;
+    --accent: 60 100% 50%;
+    --accent-foreground: 60 100% 10%;
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 240 4% 16%;
     --input: 240 5% 12%;
-    --ring: 142 76% 36%;
+    --ring: 60 100% 50%;
 
     --radius: 0.75rem;
 
     /* Chat specific colors */
-    --chat-user-bg: 142 76% 36%;
-    --chat-user-text: 144 61% 20%;
+    --chat-user-bg: 60 100% 50%;
+    --chat-user-text: 60 100% 10%;
     --chat-bot-bg: 240 5% 12%;
     --chat-bot-text: 0 0% 98%;
     --chat-container: 240 8% 5%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 86% 46%));
+    --gradient-primary: linear-gradient(135deg, hsl(60 100% 50%), hsl(60 100% 60%));
     --gradient-bg: linear-gradient(180deg, hsl(240 10% 4%), hsl(240 12% 6%));
     
     /* Animations */
