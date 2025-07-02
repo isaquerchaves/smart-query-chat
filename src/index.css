@@ -8,35 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 240 10% 6%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 144 61% 20%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 240 5% 12%;
+    --muted-foreground: 240 5% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 142 76% 36%;
+    --accent-foreground: 144 61% 20%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 240 4% 16%;
+    --input: 240 5% 12%;
+    --ring: 142 76% 36%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Chat specific colors */
+    --chat-user-bg: 142 76% 36%;
+    --chat-user-text: 144 61% 20%;
+    --chat-bot-bg: 240 5% 12%;
+    --chat-bot-text: 0 0% 98%;
+    --chat-container: 240 8% 5%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 86% 46%));
+    --gradient-bg: linear-gradient(180deg, hsl(240 10% 4%), hsl(240 12% 6%));
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
