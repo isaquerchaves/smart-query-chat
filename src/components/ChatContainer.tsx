@@ -49,7 +49,7 @@ export const ChatContainer = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ message: messageText }),
+        body: JSON.stringify({ pergunta: messageText }),
       });
 
       if (!response.ok) {
