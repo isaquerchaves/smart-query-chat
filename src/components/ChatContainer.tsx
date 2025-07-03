@@ -60,7 +60,7 @@ export const ChatContainer = () => {
       
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: data.resposta,
+        text: data.resposta.replace(/\\n/g, '\n'),
         isUser: false,
         timestamp: new Date(),
       };
