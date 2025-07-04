@@ -80,17 +80,17 @@ export const ChatContainer = () => {
 
   return (
     <div className="w-full max-w-4xl mx-auto h-screen flex flex-col">
-      <Card className="flex-1 flex flex-col bg-chat-container border-border shadow-2xl">
+      <Card className="flex-1 flex flex-col bg-chat-container border-border shadow-2xl max-h-[100vh]">
         {/* Header */}
         <div className="p-6 border-b border-border bg-gradient-primary">
           <h1 className="text-2xl font-bold text-primary-foreground">Conquer IA</h1>
           <p className="text-primary-foreground/80 text-sm">
-            Converse com a inteligência artificial
+            Pergunte sobre os nossos professores
           </p>
         </div>
 
         {/* Messages */}
-        <div className="flex-1 overflow-y-auto p-4 space-y-4">
+        <div className="flex-1 overflow-y-auto p-4 space-y-4 chat-scrollbar">
           {messages.length === 0 && (
             <div className="text-center text-muted-foreground py-8">
               <p>Olá! Como posso te ajudar hoje?</p>

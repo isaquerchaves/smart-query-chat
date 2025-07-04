@@ -117,3 +117,21 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* Scrollbar customizada para o chat */
+.chat-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.chat-scrollbar::-webkit-scrollbar-thumb {
+  background: hsl(60, 100%, 50%, 0.5);
+  border-radius: 8px;
+}
+.chat-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Firefox */
+.chat-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(60, 100%, 50%, 0.5) transparent;
+}
